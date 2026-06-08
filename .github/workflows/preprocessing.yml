@@ -26,10 +26,10 @@ jobs:
 
     - name: Run Preprocessing Script
       run: |
-        python preprocessing/automate_Nama-siswa.py
+        python preprocessing/automate_Anggi-permana.py
 
     - name: Upload Clean Data Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: cleaned-datasets
-        path: preprocessing/namadataset_preprocessing/
+        path: preprocessing/diabetes_preprocessing/
